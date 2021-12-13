@@ -6,11 +6,11 @@
     "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "http-server -o -c-1"
+        "start": "node index.js 8000"
     },
     "author": "Alexander Bazo <alexanderbazo@googlemail.com>",
     "license": "MIT",
     "dependencies": {
-        "http-server": "^0.12.3"
+        "express": "^4.17.1"
     }
 }

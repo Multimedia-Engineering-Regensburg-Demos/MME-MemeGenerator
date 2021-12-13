@@ -29,6 +29,17 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin: 1vh 0 4vh 0;
+    font-size: 1em;
+    color: var(--rose-madder);
+    text-align: center;
+}
+
+h2 a {
+    color: var(--dark-lava);
+}
+
 .generator {
     display: flex;
     flex-direction: row;
@@ -46,6 +57,19 @@ h1 {
     border-style: solid;
     border-width: 0.25vw;
     border-color: var(--rose-madder);
+}
+
+.generator .notification {
+    display: block;
+    width: 30vw;
+    height: 30vw;
+    border-style: solid;
+    border-width: 0.25vw;
+    border-color: var(--rose-madder);
+    line-height: 30vw;
+    text-align: center;
+    font-size: 2em;
+    color: var(--rose-madder);
 }
 
 .generator input {

@@ -13,9 +13,11 @@
 
 <body>
     <h1>A Cat A Day Keeps The Doctor Away</h1>
+    <h2>Basierend auf <a href="https://thecatapi.com/">The Cat API</a>. Den Code des Generators gibt es <a href="https://github.com/Multimedia-Engineering-Regensburg-Demos/MME-MemeGenerator">hier</a> (Branch <code>deploy</code>)</h2>
     <div class="generator">
         <div class="canvas-area">
-            <canvas width="800" height="800"></canvas>
+            <canvas width="800" height="800" ></canvas>
+            <div class="notification" class="hidden"></div>
             <input type="text" />
         </div>
         <ul class="menu">
@@ -24,7 +26,7 @@
             <li><i class="icon-font" data-action="font"></i></li>
             <li><i class="icon-color-adjust" data-action="fontColor"></i></li>
             <li><i class="icon-text-height" data-action="fontSize"></i></li>
-            <li class="disabled"><i class="icon-download" data-action="download"></i></li>
+            <li><i class="icon-download" data-action="download"></i></li>
         </ul>
     </div>
 
